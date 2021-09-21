@@ -11,10 +11,10 @@ O objetivo geral deste trabalho é a criação de um site que reúna pontos de a
 ## Integrantes
 
 * Hugo Vinicius Damasceno Pinto
-* Camila Jardins
-* Kamila
-* Rafael
-* Tarcisio
+* Camila Jardins Francisco
+* Kamila Clemente de Assis
+* Rafael Mautone Costa
+* Tarcisio Junio Amaral de Almeida
 
 ## Orientador
 
