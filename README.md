@@ -2,11 +2,11 @@
 
 `Análise e Desenvolvimento de Sistemas`
 
-`Projeto: Desenvolvimento de uma aplicação interativa - Turma 02`
+`Projeto: Desenvolvimento de uma aplicação para pontos de atendimetos ONGs - Turma 02`
 
 `2021/2`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+O objetivo geral deste trabalho é a criação de um site que reúna pontos de atendimento médico gratuito, apresentando à população outras opções de atendimento médico além do que é disponibilizado pelo SUS.
 
 ## Integrantes
 
