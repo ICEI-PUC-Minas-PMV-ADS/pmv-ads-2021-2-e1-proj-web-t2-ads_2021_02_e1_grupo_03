@@ -8,6 +8,8 @@
 
 O objetivo geral deste trabalho é a criação de um site que reúna pontos de atendimento médico gratuito, apresentando à população outras opções de atendimento médico além do que é disponibilizado pelo SUS.
 
+O projeto Website sera feito em HTML, CSS e JS.
+
 ## Integrantes
 
 * Hugo Vinicius Damasceno Pinto
