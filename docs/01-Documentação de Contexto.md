@@ -17,9 +17,9 @@ Conforme exposto, o problema que se busca resolver com este projeto é o acesso 
 O objetivo geral deste trabalho é a criação de um site que reúna pontos de atendimento médico gratuito, apresentando à população outras opções de atendimento médico além do que é disponibilizado pelo SUS.
 
 Como objetivos específicos, podemos ressaltar:.
-> - Fornecer pontos de atendimento médico gratuito por regiões na cidade de Belo Horizonte;
-> - Fornecer informações sobre ONGs e universidades que oferecem estes serviços;
-> - Permitir, em uma área destinada aos comentários, a troca de experiências com outras pessoas que foram beneficiadas por algum serviço fornecido pelos polos de atendimento.
+* Fornecer pontos de atendimento médico gratuito por regiões na cidade de Belo Horizonte;
+* Fornecer informações sobre ONGs e universidades que oferecem estes serviços;
+* Permitir, em uma área destinada aos comentários, a troca de experiências com outras pessoas que foram beneficiadas por algum serviço fornecido pelos polos de atendimento.
 
 
 ## Justificativa
