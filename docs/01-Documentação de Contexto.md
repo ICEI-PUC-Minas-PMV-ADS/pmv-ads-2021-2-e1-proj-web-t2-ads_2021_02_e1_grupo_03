@@ -1,46 +1,36 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+A cada dia que passa, a dependência do Sistema Único de Saúde (SUS) se torna uma triste realidade para milhões de brasileiros, uma vez que o SUS conta com filas enormes para atendimento da população.
+
+Essas pessoas dependem exclusivamente de atendimentos médicos prestados pelo SUS, não tendo na maioria das vezes outras opções de atendimento e, tampouco, condições financeiras para pagar um tratamento particular.
+
+Em paralelo, é possível observar que em algumas ONGs e polos de centros universitários, sendo estes privados ou não, oferecem à sociedade tratamento médico gratuito. Quem presta estes serviços são integrantes do grupo (no caso de ONGs) e alunos das universidades que serão futuros profissionais na área da saúde.
+
+Diante disso, torna-se fundamental a existência de um site informativo que permita ao cidadão encontrar centros/polos que oferecem o atendimento médico específico requisitado pelo usuário do serviço (fonoaudiológico, fisioterápico, odontológico etc.), podendo filtrar as buscas por regiões na cidade de Belo Horizonte - MG.
+
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
+Conforme exposto, o problema que se busca resolver com este projeto é o acesso à informação de pontos médicos gratuitos e próximos do usuário solicitante, facilitando, assim, o atendimento médico necessitado pelo mesmo e dando mais opções de consultas além das ofertadas pelo SUS.
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
 
 ## Objetivos
+O objetivo geral deste trabalho é a criação de um site que reúna pontos de atendimento médico gratuito, apresentando à população outras opções de atendimento médico além do que é disponibilizado pelo SUS.
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+Como objetivos específicos, podemos ressaltar:.
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+-Fornecer pontos de atendimento médico gratuito por regiões na cidade de Belo Horizonte;
+
+-Fornecer informações sobre ONGs e universidades que oferecem estes serviços;
+
+-Permitir, em uma área destinada aos comentários, a troca de experiências com outras pessoas que foram beneficiadas por algum serviço fornecido pelos polos de atendimento.
+
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+De acordo com o IBGE (2021), 14,4 milhões de brasileiros estão desempregados e, consequentemente, sem plano de saúde privado. O IBGE também forneceu dados de que 64,4% dos brasileiros vivem em famílias nas quais nenhum integrante tem plano médico.
+A justificativa consiste nestes dados e tendo ciência que há polos que oferecem atendimento médico de forma gratuita.
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
-
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
-
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
-
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+O público alvo deste projeto visa pessoas de classe social baixa (de qualquer faixa etária), mas destacando que estes serviços ofertados pelas ONGs (não todas) e faculdades são para quaisquer pessoas, independentemente da classe social em que se enquadre.
