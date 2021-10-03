@@ -1,91 +1,67 @@
 # Especificações do Projeto
 
-<span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
-
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
-
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
+A definição exata do problema e os pontos mais relevantes a serem tratados neste projeto foi consolidada com a participação dos usuários em um trabalho de imersão feito pelos membros da equipe a partir da observação dos usuários em seu local natural e por meio de entrevistas. Os detalhes levantados nesse processo foram consolidados na forma de personas e histórias de usuários.
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+As personas levantadas durante o processo de entendimento do problema são apresentadas nas Figuras que se seguem.
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
+![Persona1](img/ImagemPersonas1.png)
 
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+![Persona1](img/ImagemPersonas2.png)
 
 ## Histórias de Usuários
 
-Com base na análise das personas forma identificadas as seguintes histórias de usuários:
+A partir da compreensão do dia a dia das personas identificadas para o projeto, foram registradas as seguintes histórias de usuários:
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
+|Eu como... [PERSONA]|Quero/Desejo ... [O QUE]|...para... [POR QUE]     |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|Kellen Lopes  | Serviço de saúde gratuito além do SUS para pequenos atendimentos           | para desafogar o SUS e ter atendimentos mais rapidamente               |
+|Kellen Lopes       | Ter conhecimento das ofertas deste tipo de serviço                 | gastar menos tempo procurando as unidades de atendimento |
+|Kellen Lopes  | Poder pesquisar por categorias, regiões e especialidades médicas           | facilitar e agilizar a procura de pontos de atendimento cadastrados no projeto    |
+|Thais Annie       | Fazer comentários das clínicas e reportar minha opinião                 | ajudar outras pessoas na escolha dos pontos de atendimento |
+|Thais Annie  | Ter acessos aos meus laudos médicos            | para facilitar o atendimento e diagnóstico em uma outra clínica               |
+|Camila Moscatelli       | Poder marcar uma consulta 100% on-line                 | facilitar e agilizar o processo de agendamento de horários |
+|Camila Moscatelli  | Poder utilizar o site tanto no desktop quanto no celular           | poder marcar minha consulta não importando onde eu esteja               |
+|Fernanda de Paula       | Poder cadastrar novos pontos de atendimento diretamente no site                 | facilitar a inclusão de novos pontos de atendimento |
+|Fernanda de Paula  | Classificar a urgência           | facilitar o atendimento, classificando as prioridades               |
 
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
+## Requisitos do Projeto
 
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
-
-## Requisitos
-
-As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
+O escopo do projeto é definido por meio dos requisitos funcionais que descrevem as possibilidades de interação dos usuários e dos requisitos não funcionais que descrevem os aspectos que o sistema deverá apresentar, de modo geral. Estes requisitos são apresentados a seguir.
 
 ### Requisitos Funcionais
 
+A tabela abaixo apresenta os requisitos do projeto, identificando a prioridade em que os mesmos devem ser entregues.
+
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-001| O site deve apresentar na página principal a lista de clínicas cadastradas no projeto | ALTA | 
+|RF-002| O site deve apresentar, para cada clínica suas especialidades (fonoaudiologia, fisioterapia, odontologia etc.)   | ALTA |
+|RF-003| O site deve permitir ao usuário visualizar os horários disponíveis de cada clínica  | ALTA | 
+|RF-004| O site deve oferecer um filtro para o  paciente procurar a clínica por regiões ou especializações   | MÉDIA |
+|RF-005| O site deve oferecer um canal de contatos para que o paciente possa marcar sua consulta 100% online | ALTA | 
+|RF-006| O site deve permitir que o paciente consulte, atualize e gerencie seu cadastro no sistema   | MÉDIA |
+|RF-007| O site deve permitir que o paciente gerencie seu perfil adicionando informações para agilizar seu atendimento | BAIXA | 
+|RF-008| O site deve permitir que o paciente avalie e faça comentários sobre as clínicas em que consultou   | BAIXA |
+|RF-009| O site deve permitir verificar as avaliações (notas) e comentários de outros usuários | BAIXA | 
 
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
-
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
+|RNF-001| O site deve ser publicado em um ambiente acessível publicamente na Internet (Repl.it, GitHub Pages, Heroku); | ALTA | 
+|RNF-002| O site deverá ser responsivo permitindo a visualização em um celular de forma adequada |  ALTA |
+|RNF-003| O site deve ter bom nível de contraste entre os elementos da tela em conformidade  | MÉDIA | 
+|RNF-004|O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge) |  ALTA |
 
 ## Restrições
 
-O projeto está restrito pelos itens apresentados na tabela a seguir.
+As questões que limitam a execução desse projeto e que se configuram como obrigações claras para o desenvolvimento do projeto em questão são apresentadas na tabela a seguir:
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
-
-
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
+|RE-01| O projeto deverá ser entregue no final do semestre letivo, não podendo extrapolar a data de 06/12/2021. |
+|RE-02| O aplicativo deve se restringir às tecnologias básicas da Web no Frontend        |
+|RE-03| A equipe não pode subcontratar o desenvolvimento do trabalho.        |
