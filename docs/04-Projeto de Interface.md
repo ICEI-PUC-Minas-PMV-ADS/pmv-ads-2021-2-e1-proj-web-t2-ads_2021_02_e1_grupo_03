@@ -1,35 +1,69 @@
 
 # Projeto de Interface
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
+Em relação às pautas abordadas para a montagem da interface do sistema, estabelecemos o foco em questões como usabilidade, agilidade e acessibilidade. Com isso, o projeto conta com uma identidade visual padronizada em todas as telas que são projetadas para funcionamento em desktops e dispositivos móveis.
+<br/>
 
-Visão geral da interação do usuário pelas telas do sistema e protótipo interativo das telas com as funcionalidades que fazem parte do sistema (wireframes).
+## Fluxo do Usuário
 
- Apresente as principais interfaces da plataforma. Discuta como ela foi elaborada de forma a atender os requisitos funcionais, não funcionais e histórias de usuário abordados nas <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a>.
+O *User Flow*, mostrado na Figura 4, foi desenvolvido para permitir que se possa mapear o fluxo de telas do presente projeto.
 
-## User Flow
+![UserFlow](img/Userflow1.jpg) <p align="center">**Figura 4** - Fluxo do Usuário</p>
+<br/>
 
-![Exemplo de UserFlow](img/userflow.jpg)
+O diagrama apresentado na Figura 5 mostra o fluxo de interação do usuário pelas telas do sistema. As telas deste fluxo são detalhadas individualmente no tópico *Wireframes*.
 
-Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapear todo fluxo de telas do site ou app. Essa técnica funciona para alinhar os caminhos e as possíveis ações que o usuário pode fazer junto com os membros de sua equipe.
-
-> **Links Úteis**:
-> - [User Flow: O Quê É e Como Fazer?](https://medium.com/7bits/fluxo-de-usu%C3%A1rio-user-flow-o-que-%C3%A9-como-fazer-79d965872534)
-> - [User Flow vs Site Maps](http://designr.com.br/sitemap-e-user-flow-quais-as-diferencas-e-quando-usar-cada-um/)
-> - [Top 25 User Flow Tools & Templates for Smooth](https://www.mockplus.com/blog/post/user-flow-tools)
-
+![Figura5](img/DiagramaInterface.png) <p align="center">**Figura 5** - Fluxo de Telas do usuário</p>
+<br/>
 
 ## Wireframes
 
-![Exemplo de Wireframe](img/wireframe-example.png)
+De acordo com o fluxo de telas do projeto, conforme apresentado na Figura 5, detalhamos as telas do sistema que foram estruturadas seguindo o escopo abaixo:
 
-São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
- 
-> **Links Úteis**:
-> - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [Axure](https://www.axure.com/edu) (Licença Educacional)
-> - [InvisionApp](https://www.invisionapp.com/) (Licença Educacional)
+* **Cabeçalho** - local no qual serão dispostos elementos fixos de identidade (logo) e navegação principal do site (menu da aplicação);
+* **Conteúdo** - apresenta o conteúdo da tela em questão;
+* **Barra lateral** - apresenta os elementos de navegação secundária, geralmente associados aos elementos do bloco de conteúdo.
+
+![Figura6](img/Layoutsite.png) <p align="center">**Figura 6** - Estrutura do site</p>
+<br/>
+
+### Tela - Home Page
+
+A tela de home page exibe informações importantes e diretas sobre as buscas de alta prioridade.
+
+Com base na estrutura padrão, o bloco *‘Conteúdo 1’* dispõe da opção para busca de clínicas que ofereçam o atendimento médico desejado, direcionando assim, o usuário para
+outra página. O bloco *‘Conteúdo 2’*, apresenta uma introdução sobre o site e sua finalidade.
+
+Já o bloco *‘Barra Lateral’* exibe três elementos de notícias/atualizações sobre as clínicas cadastradas.
+
+![Figura7](img/Wireframing01.jpg) <p align="center">**Figura 7** - Tela Inicial: Busca de clínicas, introdução e notícias</p>
+<br/>
+
+### Tela - Notícias
+
+A tela *‘Notícias’* apresenta sete campos, sendo seis de notícias/informações mais recentes e um campo maior onde a notícia selecionada é exibida em destaque.
+
+![Figura8](img/Wireframing03.jpg) <p align="center">**Figura 8** - Tela da Notícias</p>
+<br/>
+
+### Tela - Contatos
+
+A tela *‘Contatos’* apresenta um mapa de Belo Horizonte a partir da API do Google Maps que é utilizada pelo sistema e, ao lado, são solicitados dados como o bairro e o tipo de
+tratamento que o usuário procura. Após a inserção dos dados solicitados são exibidos os resultados da pesquisa.
+
+![Figura9](img/Wireframing02.jpg) <p align="center">**Figura 9** - Tela de contatos</p>
+<br/>
+
+### Tela - Cadastro
+
+Sendo interesse do usuário ter um cadastro no site, ele poderá se registrar. Após a realização do cadastro, o usuário poderá receber as últimas notícias e informações sobre as
+clínicas, além de conseguir postar comentários sobre as clínicas.
+
+![Figura10](img/Wireframing04.jpg) <p align="center">**Figura 10** - Tela de Cadastro</p>
+<br/>
+
+### Tela - Clínicas Parceiras
+
+Na tela *‘Parceiros’* é possível visualizar todas as clínicas parceiras e coletar dados como: contato, email e especialidades ofertadas.
+
+![Figura11](img/Wireframing05.jpg) <p align="center">**Figura 11** - Tela de Parceiros</p>
