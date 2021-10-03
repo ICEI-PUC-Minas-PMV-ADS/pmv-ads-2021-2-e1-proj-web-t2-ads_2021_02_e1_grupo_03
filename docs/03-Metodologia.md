@@ -2,6 +2,7 @@
 # Metodologia
 
 A metodologia abrange as definições de ferramentas utilizadas pelos integrantes do grupo. O mesmo vale para manutenção dos códigos, demais artefatos e organização da equipe na execução das tarefas destinadas.
+<br/>
 
 ## Relação de Ambientes de Trabalho
 
@@ -13,6 +14,7 @@ Os artefatos do projeto são desenvolvidos por diversas plataformas e a relaçã
 | Documentos do projeto | Google Drive | https://docs.google.com/document/d/19-BGkpDt_ujMdmFL179UxsR17zAyIm-d/edit?usp=sharing&ouid=103254162993490802223&rtpof=true&sd=true |
 | Projeto de Interface e  Wireframes | Figma | https://www.figma.com/team_invite/redeem/Zv8Cev7IK4Ce6CR3GkDtVu | 
 | Gerenciamento do Projeto | Trello |  https://trello.com/b/M8hDmc5b |
+<br/>
 
 ## Gestão de Código Fonte
 
@@ -21,6 +23,7 @@ Para gestão do código fonte do software desenvolvido pela equipe, o grupo util
 Desta forma, todas as manutenções no código serão realizadas em *branches* separados mas que se relacionam entre si, identificados como Master, Hotfix, Release, Develop e Feature.
 
 ![GitFlow](img/GitFlow.png) <p align="center">**Figura 1** - Fluxo de controle do código fonte no Expressus B</p>
+<br/>
 
 
 ## Gerenciamento do Projeto
@@ -52,6 +55,7 @@ Para organização e distribuição das tarefas do projeto, a equipe está utili
 O quadro kanban do grupo no Trello está disponível através da URL https://trello.com/b/M8hDmc5b, conforme representação na Figura 2.
 
 ![Trello](img/trello.png) <p align="center">**Figura 2** - Tela do kanban utilizada pelo time</p>
+<br/>
 
 A tarefas são etiquetadas em função da atividade e seguem o seguinte esquema de cores/categorias:
 
