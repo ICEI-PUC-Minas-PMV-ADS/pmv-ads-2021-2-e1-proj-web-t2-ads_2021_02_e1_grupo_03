@@ -73,4 +73,4 @@ A tarefas são etiquetadas em função da atividade e seguem o seguinte esquema 
 <br/>
 
 
-<p align="right">Figura 3 - Esquema de etiquetas das tarefas</p>
+<p align="right"><b>Figura 3</b> - Esquema de etiquetas das tarefas</p>
