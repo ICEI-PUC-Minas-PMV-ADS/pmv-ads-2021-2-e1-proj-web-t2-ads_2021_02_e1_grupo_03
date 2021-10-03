@@ -1,77 +1,46 @@
 # Arquitetura da Solução
 
-<span style="color:red">Pré-requisitos: <a href="3-Projeto de Interface.md"> Projeto de Interface</a></span>
-
-Definição de como o software é estruturado em termos dos componentes que fazem parte da solução e do ambiente de hospedagem da aplicação.
+Nesta seção são apresentados os detalhes técnicos da solução criada pela equipe, tratando dos componentes que fazem parte da solução e do ambiente de hospedagem da solução.
+<br/>
 
 ## Diagrama de componentes
 
-Diagrama que permite a modelagem física de um sistema, através da visão dos seus componentes e relacionamentos entre os mesmos.
+Os componentes que fazem parte da solução são apresentados na Figura 12, abaixo:
 
-Exemplo: 
-
-Os componentes que fazem parte da solução são apresentados na Figura XX.
-
-![Diagrama de Componentes](img/componentes.png)
-<center>Figura XX - Arquitetura da Solução</center>
+![Figura12](img/DiagramaArquitetura.png) <p align="center">**Figura 12** - Arquitetura da Solução</p>
+<br/>
 
 A solução implementada conta com os seguintes módulos:
-- **Navegador** - Interface básica do sistema  
-  - **Páginas Web** - Conjunto de arquivos HTML, CSS, JavaScript e imagens que implementam as funcionalidades do sistema.
-   - **Local Storage** - armazenamento mantido no Navegador, onde são implementados bancos de dados baseados em JSON. São eles: 
-     - **Canais** - seções de notícias apresentadas 
-     - **Comentários** - registro de opiniões dos usuários sobre as notícias
-     - **Preferidas** - lista de notícias mantidas para leitura e acesso posterior
- - **News API** - plataforma que permite o acesso às notícias exibidas no site.
- - **Hospedagem** - local na Internet onde as páginas são mantidas e acessadas pelo navegador. 
 
-> **Links Úteis**:
->
-> - [Whimsical](https://whimsical.com/)
+* **Navegador** - Interface básica do sistema;
+* **Páginas Web** - Conjunto de arquivos HTML, CSS, JavaScript e imagens que implementam as funcionalidades do sistema;
+* **Local Storage** - armazenamento mantido no Navegador, onde são implementados bancos de dados baseados em JSON. São eles:
+  - **Cadastro** - seção para cadastramento de visitantes do site
+  - **Histórico** - registro de clínicas pesquisadas
+* **Mapa das clínicas (Google Maps API)** - plataforma de acesso ao mapa das clínicas exibidas no site;
+* **Hospedagem** - local na Internet onde as páginas são mantidas e acessadas pelo navegador.
 
-Inclua um diagrama da solução e descreva os módulos e as tecnologias que fazem parte da solução. Discorra sobre o diagrama.
+A Figura 13, também apresentada no tópico *Wireframes* do Item 4 - Projeto de Interface (Imagem 5), ilustra o fluxo do usuário em nossa solução. Assim que o usuário entra na plataforma, a tela inicial (Tela 1) é exibida, na qual há uma pequena introdução sobre o propósito do site e ao link para acessar as clínicas disponíveis, bem como ao link para o portal *‘Notícias’*.
 
-A imagem a seguir ilustra a o fluxo do usuário em nossa solução. Assim
-que o usuário entra na plataforma, ele é apresentado à tela inicial
-(Tela 1) onde ele é confrontado com as opões de editar seu perfil ou
-então visualizar sua galeria.
+Caso o usuário opte por clicar no link de acesso às clínicas, ele será redirecionado para a tela *‘Contato’* (Tela 2), na qual poderá visualizar o mapa das clínicas,de acordo com bairro que o usuário digitar no campo de pesquisa. Com o resultado da pesquisa, o sistema exibe a Tela 5 com as informações sobre a clínica pesquisada.
 
-Caso ele opte por seguir pelo primeiro caminho (Editar Perfil), ele é
-redirecionado para a tela de edição de perfil (Tela 2), onde pode
-atualizar seus dados cadastrais. Nessa tela, o usuário também pode
-escolher para editar sua foto de perfil. Ao selecionar essa opção, ele é
-redirecionado para a Tela 3, onde ele a imagem expandida do perfil do
-usuário é mostrado. Ao selecionar a opção para atualizar a imagem, uma
-nova janela abre pedindo para o usuário fazer o upload da nova foto.
-Assim que o processo termina um pop-up exibe o status para o usuário
-(Tela 4) e o usuário é redirecionado para a Tela 2.
+Caso o usuário opte por acessar o link *‘Notícias’*, ele é redirecionado para a Tela 3 e visualiza todas as notícias hospedadas no site.
 
-Caso o usuário opte seguir pelo segundo caminho (Visualizar Galeria) ele
-é redirecionado para a Tela 5 com todas as fotos que o usuário possui. O
-usuário pode clicar em um post qualquer para visualizar os detalhes do
-post (Tela 6). Nessa tela, ele pode então escolher editar o post, sendo
-redirecionado para a Tela 7. Ao editar as informações, o usuário pode
-escolher salvar ou deletar o post. Em ambos os casos o status é
-notificado para o usuário (Tela 8) e em seguida ele é redirecionado
-para a Tela 2.
+Há ainda a opção de se cadastrar no site (Tela 4). Nesta tela o usuário informará seus dados cadastrais para que, posteriormente, seja direcionado à sua página de perfil.
 
-![Exemplo de UserFlow](img/userflow.jpg)
-
+![Figura13](img/DiagramaWireframe.png) <p align="center">**Figura 13** - Fluxo de Telas do Usuário</p>
+<br/>
 
 ## Tecnologias Utilizadas
 
-Descreva aqui qual(is) tecnologias você vai usar para resolver o seu problema, ou seja, implementar a sua solução. Liste todas as tecnologias envolvidas, linguagens a serem utilizadas, serviços web, frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
+O site foi desenvolvido utilizando o framework *Scrum*, e possui capacidade de funcionar em diversos *browsers* Web, especialmente no Google Chrome, Mozilla Firefox e Microsoft
+Edge.
 
-Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.
-
+O site foi implementado utilizando as linguagens de programação HTML, CSS e Java Script, através do editor de código fonte Visual Studio Code.
+<br/>
 
 ## Hospedagem
 
-Explique como a hospedagem e o lançamento da plataforma foi feita.
+O site utilizará a plataforma do Heroku como ambiente de hospedagem do projeto. Ele será mantido no ambiente provisório da URL: https://pontosdeatendimentomedicobh.herokuapp.com. Cumpre observar que o site ainda não foi hospedado no link acima referido.
 
-> **Links Úteis**:
->
-> - [Website com GitHub Pages](https://pages.github.com/)
-> - [Programação colaborativa com Repl.it](https://repl.it/)
-> - [Getting Started with Heroku](https://devcenter.heroku.com/start)
-> - [Publicando Seu Site No Heroku](http://pythonclub.com.br/publicando-seu-hello-world-no-heroku.html)
+A publicação do site no Heroku é feita por meio de uma submissão do projeto (push) via Git para o repositório remoto que se encontra no endereço: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2021-2-e1-proj-web-t2-ads_2021_02_e1_grupo_03
