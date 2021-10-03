@@ -16,11 +16,11 @@ Os artefatos do projeto são desenvolvidos por diversas plataformas e a relaçã
 
 ## Gestão de Código Fonte
 
-Para gestão do código fonte do software desenvolvido pela equipe, o grupo utiliza um processo baseado no Git Flow abordado por Vietro (2015), mostrado na **figura X**.
+Para gestão do código fonte do software desenvolvido pela equipe, o grupo utiliza um processo baseado no Git Flow abordado por Vietro (2015), mostrado na Figura 1.
 
-Desta forma, todas as manutenções no código serão realizadas em branches separados mas que se relacionam entre si, identificados como Master, Hotfix, Release, Develop e Feature.
+Desta forma, todas as manutenções no código serão realizadas em *branches* separados mas que se relacionam entre si, identificados como Master, Hotfix, Release, Develop e Feature.
 
-![GitFlow](img/GitFlow.png) <p align="center">Figura X - Fluxo de controle do código fonte no Expressus B</p>
+![GitFlow](img/GitFlow.png) <p align="center">**Figura 1** - Fluxo de controle do código fonte no Expressus B</p>
 
 
 ## Gerenciamento do Projeto
@@ -29,8 +29,10 @@ A equipe está empregando métodos ágeis e escolheu o SCRUM como base para o de
 
 A equipe está organizada da seguinte maneira:
 
-* **Scrum Master:** Camila Jardim
-* **Product Owner:** Tarcísio Almeida
+* **Scrum Master:** 
+   - Camila Jardim
+* **Product Owner:** 
+   - Tarcísio Almeida
 * **Equipe de Desenvolvimento:**
    - Kamila Clemente
    - Hugo Vinicius Damasceno
@@ -39,23 +41,23 @@ A equipe está organizada da seguinte maneira:
 
 Para organização e distribuição das tarefas do projeto, a equipe está utilizando a ferramenta Trello para estruturação das atividades que serão executadas, conforme disposição abaixo:
 
-* **Recursos:** esta lista mantém um template de tarefas recorrentes com as configurações padronizadas que todos devem seguir. O objetivo é permitir a fácil visualização do que é desenvolvimento, documentação e gerenciamento do projeto.
-* **Backlog:** recebe as tarefas a serem trabalhadas e representa o Product Backlog. Todas as atividades identificadas no decorrer do projeto também devem ser incorporadas a esta lista.
-* **To Do:** Esta lista representa o Sprint Backlog. Este é o Sprint atual que estamos trabalhando.
-* **Doing:** Quando uma tarefa tiver sido iniciada, ela é movida para cá.
-* **Test:** Checagem de Qualidade. Quando as tarefas são concluídas, eles são movidas para o test. No decorrer da semana,  o Scrum Master com o Product Owen  checam a lista para garantir que o projeto está fluindo e tendo os requisitos esperados.
-* **Done:** nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontos para ser entregues ao usuário. Não há mais edições ou revisões necessárias, ele está agendado e pronto para a ação.
+* **Recursos:** esta lista mantém um template de tarefas recorrentes com as configurações padronizadas que todos devem seguir. O objetivo é permitir a fácil visualização do que é desenvolvimento, documentação e gerenciamento do projeto;
+* **Backlog:** recebe as tarefas a serem trabalhadas e representa o Product Backlog. Todas as atividades identificadas no decorrer do projeto também serão incorporadas a esta lista;
+* **To Do:** Esta lista representa o Sprint Backlog. Este é o sprint atual que estamos trabalhando;
+* **Doing:** Quando uma tarefa tiver sido iniciada, ela será movida para este quadro;
+* **Test:** Checagem de qualidade. Quando as tarefas são concluídas, elas são movidas para o Test. No decorrer da semana,  o Scrum Master com o Product Owner  checam a lista para garantir que o projeto está fluindo e seguindo os requisitos esperados;
+* **Done:** nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontas para entrega ao usuário. Não há mais edições ou revisões necessárias, ele está agendado e pronto para a ação.
 * **Locked:** Quando alguma coisa impede a conclusão da tarefa, ela é movida para esta lista juntamente com um comentário sobre o que está travando a tarefa.
 
-O quadro kanban do grupo no Trello está disponível através da URL https://trello.com/b/M8hDmc5b . Representado na figura Y.
+O quadro kanban do grupo no Trello está disponível através da URL https://trello.com/b/M8hDmc5b, conforme representação na Figura 2.
 
-![Trello](img/trello.png) <p align="center">Figura Y - Tela do kanban utilizada pelo time</p>
+![Trello](img/trello.png) <p align="center">**Figura 2** - Tela do kanban utilizada pelo time</p>
 
 A tarefas são etiquetadas em função da atividade e seguem o seguinte esquema de cores/categorias:
 
 <img align="right" src="img/Recursos.png">
 
-* Documentação 
+* Documentação
 
 * Desenvolvimento
 
@@ -64,3 +66,11 @@ A tarefas são etiquetadas em função da atividade e seguem o seguinte esquema 
 * Testes
 
 * Gerência de Projetos
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+
+<p align="right">Figura 3 - Esquema de etiquetas das tarefas</p>
