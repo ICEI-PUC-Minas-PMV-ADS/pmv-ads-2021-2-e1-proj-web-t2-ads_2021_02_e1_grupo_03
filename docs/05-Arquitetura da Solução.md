@@ -7,7 +7,7 @@ Nesta seção são apresentados os detalhes técnicos da solução criada pela e
 
 Os componentes que fazem parte da solução são apresentados na Figura 12, abaixo:
 
-![Figura12](img/DiagramaArquitetura.png) <p align="center">**Figura 12** - Arquitetura da Solução</p>
+![Figura12] <p align="center">**Figura 12** - Arquitetura da Solução</p>
 <br/>
 
 A solução implementada conta com os seguintes módulos:
