@@ -1,0 +1,313 @@
+h1 {
+    color: #666666; font-family: "Segoe UI Semibold", 'Segoe UI', sans-serif; 
+    font-weight: 400; font-size: 36px;
+    margin-left: 15px;
+}
+
+#titmargem {
+    padding-left: 120px;
+}
+
+
+#nospace {
+    margin-top: 0px;
+}
+
+.linha {
+    text-decoration: underline #00A9B0;
+}
+
+.logo {
+   width: 15vw;
+   height: auto;
+}
+
+#menu {
+    font-family: "Segoe UI", Arial, Helvetica, sans-serif; font-weight: 400; font-size: 18px; 
+    color: #FFFFFF; background-color: #00A9B0;
+    padding: 14px;
+	overflow: hidden;
+    display: flex;
+}
+
+#menu2 {
+    font-family: "Segoe UI", Arial, Helvetica, sans-serif; font-weight: 400; font-size: 18px;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding-right: 30px;
+    padding-left: 30px;
+	float: left;
+	display: block;
+}
+
+#busca {
+	margin-left: 4vw;
+    display: inline-block;
+}
+
+#submenu {
+    display:inline-block;
+	margin-left: 1vw;
+}
+
+#menu3 {
+    font-family: "Segoe UI", Arial, Helvetica, sans-serif; font-weight: bolder; font-size: 16px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+
+#txtBusca {
+    font-family: "Segoe UI" Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 16px;
+    background-image: url("img/busca2.png");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-color: white;
+    border:solid 1px white;
+    border-radius:15px;
+    width: 267px;
+    height: 30px;
+    text-indent: 20px;
+}
+
+.title {
+	display: flex;
+}
+
+
+
+#conteudo1 {
+    background-image: url("img/fundo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 75vw;
+    height: 45vw;
+	margin-top: 1.4vw;
+    margin-left: 0.3vw;
+    border-radius: 2vw;
+	display: inline-block;
+} 
+
+#conteudocentral {
+    font-family: "Segoe UI", Arial, Helvetica, sans-serif; font-weight: 400; font-size: 2vw;
+    color: #666666;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 7vw;
+
+}
+
+#conteudo2 {
+    background-color: #EFEFEF;
+    width: 75%;
+    height: 210px;
+    margin-left: 15px;
+    border-radius: 15px;
+}
+
+#conteudointro {
+    font-family: "Segoe UI", Arial, Helvetica, sans-serif; font-weight: 400; font-size: 20px;
+    color: #666666;
+    margin-left: 30px;
+    margin-right: 20px;
+    text-align: justify;
+}
+
+#box-lateral {
+    background-color: #EFEFEF;
+    width: 20vw;
+    height: 45vw;
+    border-radius: 15px;
+    display: inline-block;
+    margin-top: 1.4vw;
+    margin-right: 1vw;
+	padding-left: 1vw;
+}
+
+.titnoticia {
+    background-color: #00A9B0;
+    border-radius: 5px;
+    font-family: "Segoe UI", Arial, Helvetica, sans-serif; 
+    font-size: 1.3vw;
+    color: #FFFFFF;
+    list-style: none;
+    width: 19vw;
+    height: auto; 
+	margin-top: 0vw;
+
+}
+
+.imgnoticia {
+    float: inline-start;
+    width: 6vw;
+    height: auto;
+}
+
+.pnoticia {
+    display: flex;
+    background-color: #D9D9D9;
+    border-radius: 5px;
+    font-family: "Segoe UI", Arial, Helvetica, sans-serif; font-size: 0.9vw;
+    color: #666666;
+    width: 19vw;
+	height: 8vw;
+    margin-bottom: 1vw;
+    
+}
+
+p > a {
+    font-family: "Segoe UI", Arial, Helvetica, sans-serif; font-size: 14px;
+    color: #666666;
+    float: right;
+    
+}
+
+.botao1 {
+    background-color: #00A9B0;
+    border-radius: 5px;
+    border-color: #FFFFFF;
+    padding: 5px 15px 5px 15px;
+    margin-left: 50px;
+}
+
+.botao1:hover {
+    background-color: #00aab0a8;
+    border-radius: 5px;
+    border-color: #00A9B0;
+    padding: 5px 15px 5px 15px;
+    margin-left: 50px;
+}
+
+#linkb2 {
+    text-decoration: none;
+    font-family: "Segoe UI", Arial, Helvetica, sans-serif; font-weight: bolder; font-size: 20px;
+    color: #FFFFFF;
+}
+
+.botao2 {
+    background-color: #00A9B0;
+    border-radius: 3vw;
+    border-color: #00aab0a8;
+    width: 20vw;
+    height: 3vw;
+    margin-left: 30vw;
+    margin-top: 6vw;
+    text-decoration: none;
+    font-family: "Segoe UI", Arial, Helvetica, sans-serif; font-weight: bolder; font-size: 16px;
+    color: #FFFFFF;
+}
+
+.botao2:hover {
+    background-color: #00aab0a8;
+    border-radius: 3vw;
+    border-color: #00aab0a8;
+    width: 20vw;
+    height: 3vw;
+    margin-left: 30vw;
+    margin-top: 6vw;
+    text-decoration: none;
+    font-family: "Segoe UI", Arial, Helvetica, sans-serif; font-weight: bolder; font-size: 16px;
+    color: #FFFFFF;
+}
+
+.semlinha {
+    text-decoration: none;
+    font-family: "Segoe UI", Arial, Helvetica, sans-serif; font-weight: bolder; font-size: 16px;
+    color: #FFFFFF;
+}
+
+.row {
+	display: flex; 
+	justify-content: space-between;	
+}
+
+@media only screen and (max-width: 800px) {
+	.centralizar {
+		font-size: 4vw;
+		text-align: center;
+	}
+	
+	#menu2  {
+		float: none;
+		width: 100%;
+	}
+	
+	#conteudo1 {
+		width: 96vw;
+		height: 45vw;
+    }	
+
+    #conteudo2 {
+        width: 96vw;
+		height: 60vw;
+        
+    }
+
+    #conteudointro {
+        font-size: 3.5vw;
+    }
+	
+	.row {
+		display: block; 
+	}
+
+    #conteudocentral {
+        margin-top: 1vw;
+    }
+	
+	#box-lateral {
+		width: 95vw;
+		height: 74vw;
+	}
+	
+	.pnoticia {
+		width: 92vw;
+		font-size: 2.3vw;
+        height: 14vw;
+	}
+
+    .titnoticia {
+        width: 92vw;
+        height: auto;
+        font-size: 3vw;
+    }  
+
+    #nospace {
+        font-size: 5.1vw;
+    }
+
+    .linha {
+        font-size: 5.1vw;
+    
+    }
+
+    .botao2 {
+        margin-left: 27vw;
+        margin-top: 2vw;
+        font-size: 3vw;
+        height: 5vw;
+        width: 38vw;
+    }
+
+    .botao2:hover {
+        margin-left: 27vw;
+        margin-top: 2vw;
+        font-size: 3vw;
+        height: 5vw;
+        width: 38vw;
+    }
+
+    p > a {
+        margin-right: 0vw;
+        float: none;
+
+    }
+
+    .imgnoticia {
+        height: 12vw;
+        width: 12vw;
+    }
+
+}
