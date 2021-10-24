@@ -4,7 +4,7 @@ A cada dia que passa, a dependência do Sistema Único de Saúde (SUS) se torna 
 
 Essas pessoas dependem exclusivamente de atendimentos médicos prestados pelo SUS, não tendo na maioria das vezes outras opções de atendimento e, tampouco, condições financeiras para pagar um tratamento particular.
 
-Em paralelo, é possível observar que em algumas ONGs e polos de centros universitários, sendo estes privados ou não, oferecem à sociedade tratamento médico gratuito. Quem presta estes serviços são integrantes do grupo (no caso de ONGs) e alunos das universidades que serão futuros profissionais na área da saúde.
+Em paralelo, é possível observar que em alguns polos de centros universitários, sendo estes privados ou não, oferecem à sociedade tratamento médico gratuito. Quem presta estes serviços são alunos das universidades que serão futuros profissionais na área da saúde.
 
 Diante disso, torna-se fundamental a existência de um site informativo que permita ao cidadão encontrar centros/polos que oferecem o atendimento médico específico requisitado pelo usuário do serviço (fonoaudiológico, fisioterápico, odontológico etc.), podendo filtrar as buscas por regiões na cidade de Belo Horizonte - MG.
 
@@ -18,7 +18,7 @@ O objetivo geral deste trabalho é a criação de um site que reúna pontos de a
 
 Como objetivos específicos, podemos ressaltar:.
 * Fornecer pontos de atendimento médico gratuito por regiões na cidade de Belo Horizonte;
-* Fornecer informações sobre ONGs e universidades que oferecem estes serviços;
+* Fornecer informações sobre as universidades que oferecem estes serviços;
 * Permitir, em uma área destinada aos comentários, a troca de experiências com outras pessoas que foram beneficiadas por algum serviço fornecido pelos polos de atendimento.
 
 
@@ -30,4 +30,4 @@ A justificativa consiste nestes dados e tendo ciência que há polos que oferece
 
 ## Público-Alvo
 
-O público alvo deste projeto visa pessoas de classe social baixa (de qualquer faixa etária), mas destacando que estes serviços ofertados pelas ONGs (não todas) e faculdades são para quaisquer pessoas, independentemente da classe social em que se enquadre.
+O público alvo deste projeto visa pessoas de classe social baixa (de qualquer faixa etária), mas destacando que estes serviços ofertados pelas faculdades são para quaisquer pessoas, independentemente da classe social em que se enquadre.
