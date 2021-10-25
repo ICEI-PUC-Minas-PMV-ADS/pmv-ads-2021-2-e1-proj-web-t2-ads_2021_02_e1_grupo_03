@@ -12,8 +12,10 @@ A tela Home Page, apresenta o botão Login/Registro, no qual dá a opção ao us
 
 ### Requisitos Atendidos
 
-* RNF-01 
-* RNF-02  
+* RNF-001 - O site deve ser publicado em um ambiente acessível publicamente na Internet (Repl.it, GitHub Pages, Heroku);
+* RNF-002 - O site deverá ser responsivo permitindo visualização em desktop na resolução mínima de 470px;
+* RNF-003 - O site deve ter bom nível de contraste entre os elementos da tela em conformidade;
+* RNF-004 - O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge).
 
 ### Artefatos da funcionalidade
 
