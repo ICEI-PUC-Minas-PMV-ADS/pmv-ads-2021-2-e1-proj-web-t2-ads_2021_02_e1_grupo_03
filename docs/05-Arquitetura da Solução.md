@@ -41,6 +41,6 @@ O site foi implementado utilizando as linguagens de programação HTML, CSS e Ja
 
 ## Hospedagem
 
-O site utilizará a plataforma do Heroku como ambiente de hospedagem do projeto. Ele será mantido no ambiente provisório da URL: https://pontosdeatendimentomedicobh.herokuapp.com. Cumpre observar que o site ainda não foi hospedado no link acima referido.
+O site utilizará a plataforma do GitHub Pages como ambiente de hospedagem do projeto. Ele será mantido no ambiente provisório da URL: https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2021-2-e1-proj-web-t2-ads_2021_02_e1_grupo_03/index.html.
 
-A publicação do site no Heroku é feita por meio de uma submissão do projeto (push) via Git para o repositório remoto que se encontra no endereço: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2021-2-e1-proj-web-t2-ads_2021_02_e1_grupo_03
+A publicação do site no GitHub Pages é feita por meio de uma submissão do projeto (push) via Git para o repositório remoto que se encontra no endereço: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2021-2-e1-proj-web-t2-ads_2021_02_e1_grupo_03
