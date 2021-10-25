@@ -15,8 +15,8 @@ A solução implementada conta com os seguintes módulos:
 * **Navegador** - Interface básica do sistema;
 * **Páginas Web** - Conjunto de arquivos HTML, CSS, JavaScript e imagens que implementam as funcionalidades do sistema;
 * **Local Storage** - armazenamento mantido no Navegador, onde são implementados bancos de dados baseados em JSON. São eles:
-  - **Cadastro** - seção para cadastramento de visitantes do site
-  - **Histórico** - registro de clínicas pesquisadas
+  - **Cadastro** - seção para cadastramento de visitantes do site.
+  - **Login** - seção para o login dos visitantes do site já cadastrados.
 * **Mapa das clínicas (Google Maps API)** - plataforma de acesso ao mapa das clínicas exibidas no site;
 * **Hospedagem** - local na Internet onde as páginas são mantidas e acessadas pelo navegador.
 
