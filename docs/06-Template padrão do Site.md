@@ -1,12 +1,28 @@
 # Template padrão do site
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>, <a href="4-Metodologia.md"> Metodologia</a>
+O padrão de layout a ser utilizado pelo site tem correspondência ao projeto de Interface elaborado anteriormente na Figura 6 e que segue abaixo na Figura 14.
 
-Layout padrão do site (HTML e CSS) que será utilizado em todas as páginas com a definição de identidade visual, aspectos de responsividade e iconografia.
+![Figura14](img/Layoutsite.png) <p align="center">**Figura 14** - Estrutura do Site</p>
+<br/>
 
-> **Links Úteis**:
->
-> - [CSS Website Layout (W3Schools)](https://www.w3schools.com/css/css_website_layout.asp)
-> - [Website Page Layouts](http://www.cellbiol.com/bioinformatics_web_development/chapter-3-your-first-web-page-learning-html-and-css/website-page-layouts/)
-> - [Perfect Liquid Layout](https://matthewjamestaylor.com/perfect-liquid-layouts)
-> - [How and Why Icons Improve Your Web Design](https://usabilla.com/blog/how-and-why-icons-improve-you-web-design/)
+O template criado está disponível no site e é composto pelos seguintes layouts:
+* Tela Home Page
+* Tela de Cadastro / Login
+
+A responsividade segue o padrão das media queries na linguagem CSS.
+<br/>
+
+## Tela Home Page
+
+Essa é a tela que abrange todas as visualizações iniciais do site, direciona para a tela de cadastro e login, e dá acesso às notícias no box lateral.
+
+![Figura15](img/TelaHomePage.png) <p align="center">**Figura 15** - Home Page</p>
+<br/>
+
+## Tela de Cadastro / Login
+
+Esse layout é utilizado no cadastro / login do usuário, conforme se verifica nas Figuras 16 e 17, abaixo.
+
+![Figura16](img/Cadastrar.png) <p align="center">**Figura 16** - Criar Conta</p>
+
+![Figura17](img/Login.png) <p align="center">**Figura 17** - Entrar</p>
