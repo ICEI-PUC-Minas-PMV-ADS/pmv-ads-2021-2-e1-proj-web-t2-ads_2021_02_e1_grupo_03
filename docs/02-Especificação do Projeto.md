@@ -36,23 +36,19 @@ A tabela abaixo apresenta os requisitos do projeto, identificando a prioridade e
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| O site deve apresentar na página principal a lista de clínicas cadastradas no projeto | ALTA | 
+|RF-001| O site deve apresentar a lista de clínicas cadastradas no projeto | ALTA | 
 |RF-002| O site deve apresentar, para cada clínica suas especialidades (fonoaudiologia, fisioterapia, odontologia etc.)   | ALTA |
 |RF-003| O site deve permitir ao usuário visualizar os horários disponíveis de cada clínica  | ALTA | 
-|RF-004| O site deve oferecer um filtro para o  paciente procurar a clínica por regiões ou especializações   | MÉDIA |
+|RF-004| O site deve oferecer um filtro para o  paciente procurar a clínica e seu endereço   | MÉDIA |
 |RF-005| O site deve oferecer um canal de contatos para que o paciente possa marcar sua consulta 100% online | ALTA | 
 |RF-006| O site deve permitir que o paciente consulte, atualize e gerencie seu cadastro no sistema   | MÉDIA |
-|RF-007| O site deve permitir que o paciente gerencie seu perfil adicionando informações para agilizar seu atendimento | BAIXA | 
-|RF-008| O site deve permitir que o paciente avalie e faça comentários sobre as clínicas em que consultou   | BAIXA |
-|RF-009| O site deve permitir verificar as avaliações (notas) e comentários de outros usuários | BAIXA | 
-
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
 |RNF-001| O site deve ser publicado em um ambiente acessível publicamente na Internet (Repl.it, GitHub Pages, Heroku); | ALTA | 
-|RNF-002| O site deverá ser responsivo permitindo visualização em desktop na resolução mínima de 470px |  ALTA |
+|RNF-002| O site deverá ser responsivo permitindo a visualização em um celular de forma adequada |  ALTA |
 |RNF-003| O site deve ter bom nível de contraste entre os elementos da tela em conformidade  | MÉDIA | 
 |RNF-004| O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge) |  ALTA |
 
