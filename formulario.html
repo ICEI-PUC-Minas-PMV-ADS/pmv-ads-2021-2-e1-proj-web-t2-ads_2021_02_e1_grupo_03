@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="form.css">
+        <link rel="stylesheet" href="http://code.jquery.com/ui/1.9.0/themes/base/jquery-ui.css" />
+        <script src="http://code.jquery.com/jquery-1.8.2.js"></script>
+        <script src="http://code.jquery.com/ui/1.9.0/jquery-ui.js"></script>
+        <title>Agendamento</title>
+    
+
+	
+</head>
+
+<body>
+
+    <header>
+		
+
+
+		<div class="title">
+			<img src="img/pamg.png" class="logo">		
+			<h1 id="titmargem" class="centralizar">Pontos de Atendimento Médico Gratuito</h1>
+		</div>
+		
+        <div id="menu">
+            <div id="submenu">
+            <a id="menu2" href="index.html">Home</a>
+            <a id="menu2" href="contatos2.html">Contato</a>
+            <a id="menu2" href="formulario.html">Agendar Consulta</a>
+            <a id="menu2" href="noti.html">Notícias</a>
+            <a id="menu2" href="parceiros.html">Parceiros</a>
+            </div>
+
+			<div id="busca">
+                <button id="btnBusca">Buscar</button>
+				<input type="search" id="txtBusca" placeholder="Buscar..."/>
+            	<button class="botao1"><a id="menu3" href="login.html">Login / Registro</a></button>
+			</div>
+        
+
+
+        </div>
+    </header>
+
+    <div class="funcione">
+        <div>
+            <h1 id="titulo">Agendamento de Consulta</h1>
+            <p id="subtitulo">Preencha seus dados e selecione a especialidade de atendimento.</p>
+            <br>
+        </div>
+
+        <form>
+            
+                <div class="campo">
+                    <label for="nome"><strong>Nome</strong></label>
+                    <input class="atualiza-ls" type="text" name="nome" id="nome" required>
+                    <br>
+                    <label for="sobrenome"><strong>Sobrenome</strong></label>
+                    <input type="text" class="atualiza-ls" name="sobrenome" id="sobrenome" required>
+                </div>
+            
+    
+            <div class="campo">
+                <label for="telefone"><strong>Telefone de Contato:</strong></label>
+                <input type="text" class="atualiza-ls" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..?)\../g, '$1');" / required >
+                
+            </div>
+
+            
+            <div class="campo">
+                <label><strong>Com qual gênero você se identifica?</strong></label>
+                <label>
+                    <input type="radio" name="sexo" value="F" checked>Feminino
+                </label>
+                <label>
+                    <input type="radio" name="sexo" value="M">Masculino
+                </label>
+                <label>
+                    <input type="radio" name="sexo" value="T">Transgênero
+                </label>
+            </div>
+
+         
+            <div class="campo">
+                <label for="especialidade"><strong>Especialidade</strong></label>
+                <select class="atualiza-ls" id="especialidade" required>
+                  <option selected disabled value="">Selecione</option>
+                  <option value="CIÊNCIAS MÉDICAS: Cirurgia Geral">CIÊNCIAS MÉDICAS: Cirurgia Geral</option>
+                  <option value="CIÊNCIAS MÉDICAS: Ginecologia">CIÊNCIAS MÉDICAS: Ginecologia</option>
+                  <option value="CIÊNCIAS MÉDICAS: Mastologia ">CIÊNCIAS MÉDICAS: Mastologia </option>
+                  <option value="CIÊNCIAS MÉDICAS: Nefrologia">CIÊNCIAS MÉDICAS: Nefrologia</option>
+                  <option value="CIÊNCIAS MÉDICAS: Pediatria">CIÊNCIAS MÉDICAS: Pediatria</option>
+                  <option value="CIÊNCIAS MÉDICAS: Proctologia">CIÊNCIAS MÉDICAS: Proctologia</option>
+                  <option value="CIÊNCIAS MÉDICAS: Urologia">CIÊNCIAS MÉDICAS: Urologia</option>
+                  <option value="FACULDADE ARNALDO: Psicologia">FACULDADE ARNALDO: Psicologia</option>
+                  <option value="FUMEC: Psicologia">FUMEC: Psicologia</option>
+                  <option value="PUC COREU: Fonoaudiologia">PUC COREU: Fonoaudiologia</option>
+                  <option value="PUC COREU: Odontologia">PUC COREU: Odontologia</option>
+                  <option value="PUC COREU: Psicologia">PUC COREU: Psicologia</option>
+                  <option value="UFMG: Fonoaudiologia">UFMG: Fonoaudiologia</option>
+                  <option value="UFMG: Odontologia">UFMG: Odontologia</option>
+                  <option value="UFMG: Psicologia">UFMG: Psicologia</option>
+                  <option value="UNA BARREIRO: Fisioterapia">UNA BARREIRO: Fisioterapia</option>
+                  <option value="UNA GUAJAJARAS: Nutrição">UNA GUAJAJARAS: Nutrição</option>
+                  <option value="UNA GUAJAJARAS: Psicologia">UNA GUAJAJARAS: Psicologia</option>
+                  <option value="UNI BH: Angiologista">UNI BH: Angiologista</option>
+                  <option value="UNI BH: Cardiologista">UNI BH: Cardiologista</option>
+                  <option value="UNI BH: Clínica Médica">UNI BH: Clínica Médica</option>
+                  <option value="UNI BH: Dermatologia">UNI BH: Dermatologia</option>
+                  <option value="UNI BH: Endocrinologia">UNI BH: Endocrinologia</option>
+                  <option value="UNI BH: Fisioterapia">UNI BH: Fisioterapia</option>
+                  <option value="UNI BH: Gastroenterologia">UNI BH: Gastroenterologia</option>
+                  <option value="UNI BH: Geriatria">UNI BH: Geriatria</option>
+                  <option value="UNI BH: Neurologia">UNI BH: Neurologia</option>
+                  <option value="UNI BH: Nutrição">UNI BH: Nutrição</option>
+                  <option value="UNI BH: Odontologia">UNI BH: Odontologia</option>
+                  <option value="UNI BH: Otorrinolaringologia">UNI BH: Otorrinolaringologia</option>
+                  <option value="UNI BH: Psicologia">UNI BH: Psicologia</option>
+                </select>
+            </div>
+
+            <p id="datap"><strong>Data:</strong></p> 
+            <input type="text" class="atualiza-ls" id="calendario"/>
+            <script>
+                $(function() {
+                    $("#calendario").datepicker({
+                        dateFormat: 'dd/mm/yy',
+                        dayNames: ['Domingo','Segunda','Terça','Quarta','Quinta','Sexta','Sábado','Domingo'],
+                        dayNamesMin: ['D','S','T','Q','Q','S','S','D'],
+                        dayNamesShort: ['Dom','Seg','Ter','Qua','Qui','Sex','Sáb','Dom'],
+                        monthNames: ['Janeiro','Fevereiro','Março','Abril','Maio','Junho','Julho','Agosto','Setembro','Outubro','Novembro','Dezembro'],
+                        monthNamesShort: ['Jan','Fev','Mar','Abr','Mai','Jun','Jul','Ago','Set','Out','Nov','Dez']
+                    });
+                });
+                </script>
+
+            <br> <br>
+            <div class="campo">
+                <label for="horario"><strong>Horário</strong></label>
+                <select class="atualiza-ls" id="horario" required>
+                <option selected disabled value="">Selecione</option>
+                <option>08:00</option>
+                <option>09:00</option>
+                <option>10:00</option>
+                <option>11:00</option>
+                <option>12:00</option>
+                <option>14:00</option>
+                <option>15:00</option>
+                <option>16:00</option>
+                <option>17:00</option>
+                </select>
+            </div>
+            <button class="botao" type="submit"  onClick="salvarForm();"> Confirmar Agendamento</button>
+                <script>
+                    function salvarForm(){ alert("Consulta agendada") } ;
+                </script>
+        
+        </form>
+    </div>
+
+    <script>
+            
+
+            const salvals = (evento) => {
+                const el = evento.target;
+                const st = window.localStorage;
+                st.setItem(el.id, el.value);
+            }
+
+            const criaEventos = () => {
+                document.querySelectorAll(".atualiza-ls").forEach((el) => {
+                    el.addEventListener("change", salvals);
+                    const st = window.localStorage;
+                    const valor = st.getItem(el.id);
+                    if (valor) {
+                        el.value = valor
+                    }
+
+                })
+            }
+            document.addEventListener("DOMContentLoaded", criaEventos);
+
+        </script>
+
+</body>
+
+</html>

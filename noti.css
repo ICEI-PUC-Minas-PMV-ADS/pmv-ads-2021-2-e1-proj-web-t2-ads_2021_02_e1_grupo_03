@@ -1,0 +1,594 @@
+body {
+    font-family:"Segoe UI Semibold", 'Segoe UI', sans-serif;  ;
+}
+
+
+h1 {
+    color: #666666;
+     font-family: "Segoe UI Semibold", 'Segoe UI', sans-serif; 
+    font-weight: 400;
+     font-size: 36px;
+    margin-left: 15px;
+    
+}
+
+
+
+header{
+    width:97vw;
+      
+}
+
+
+
+#nospace {
+    color: black;
+    margin-top: 0px;
+}
+
+.linha {
+    text-decoration:  #00A9B0;
+}
+
+.logo {
+   width: 15vw;
+   height: auto;
+}
+
+#menu {
+    font-family: "Segoe UI", Arial, Helvetica, sans-serif; font-weight: 400; font-size: 18px; 
+    color: #FFFFFF; background-color: #00A9B0;
+    width: 97vw;
+    padding: .65vw;
+	/*overflow: auto;*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+#menu2 {
+    font-family: "Segoe UI", Arial, Helvetica, sans-serif; font-weight: 400; font-size: 18px;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding-right: 30px;
+    padding-left: 30px;
+	float: left;
+	display: block;
+}
+
+
+
+#busca #txtBusca{
+    float:right;
+    background-color:white;
+    padding:5px;
+    margin-left:25px ;
+    font-size:18px;
+    height:32px;
+    width:190px;
+    border-radius:7px 0px 0px 7px;
+  }
+
+#btnBusca{
+    border: solid 1px white;
+    float:right;
+    height:32px;
+    border-radius:0 7px 7px 0;
+    margin-right:25px ;
+    width:70px;
+    font-weight:bold;
+    background: #00A9B0;
+  }
+
+#submenu {
+    display:inline-block;
+	margin-left: 1vw;
+    
+}
+
+#menu3 {
+    font-family: "Segoe UI", Arial, Helvetica, sans-serif; font-weight: bolder; font-size: 16px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+
+#txtBusca {
+    font-family: "Segoe UI" Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 16px;
+    background-image: url("img/busca2.png");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-color: white;
+    border:solid 1px white;
+    border-radius:15px;
+    width: 267px;
+    height: 30px;
+    text-indent: 20px;
+}
+
+.title {
+	display: flex;
+    align-items: center;
+    justify-content: space-between  ;
+    width: 97vw;
+    
+}
+
+
+
+/* BOX PRINCIPAL */
+
+
+
+#conteudo1 {
+    justify-content: space-between ;
+    width: 56vw;
+    height: 45vw;
+	margin-top: 1.4vw;
+    margin-right: 2vw;
+    margin-left: 0.3vw;
+	display: inline-block;
+ } 
+
+ h2 {
+    text-align: center;
+    font-size:3vw;
+ }
+
+#conteudo1 p {
+    width: 45vw;
+    font-size: 2vw;
+    text-align: center;
+}
+
+h4{
+    margin-left: 15px;
+    width: 15vw;
+    font-size: 1vw;
+    background-color:gainsboro;
+    text-align: center;
+    height: 6vw;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+ul {
+    position: relative;
+    left: 4vw;
+
+    width: 40vw;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.lol {
+    position: relative;
+    bottom: 1.4vw;
+    padding-left: 15px;
+    border:none;
+    border-radius: 0px;
+    width: 15vw;
+    height: 7vw;
+}
+
+#link {
+    text-decoration: none;
+    color: black;
+}
+
+#link:hover {
+    color: rgb(22, 65, 255);
+}
+
+
+/* BOX LATERAL */ 
+
+#box-lateral {
+    font-size: x-larger;
+    text-align: center;
+    background-color: #EFEFEF;
+    width: 40vw;
+    height: 45vw;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 1.4vw;
+    margin-right: 1vw;
+	padding-left: 0vw;
+    border: 2px solid black
+}
+
+
+img {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    width: 40vw;
+    height: 22vw;
+    background-repeat: no-repeat;
+ }
+
+
+
+#nospace {
+    font-size: 3vw;
+    position: relative;
+    top: 8vw;
+}
+
+h3 {
+    font-size: 2vw;
+}
+ 
+p {
+    width: 35vw;
+    text-align: left;
+    top: 1vw;
+    left: 3vw;
+    position: relative;
+    font-size: 1.5vw;
+}
+
+#veja {
+    position: relative;
+    top: 0.3vw;
+    right: 1.5vw;
+    font-size: 1.1vw;
+    color: rgb(22, 65, 255);
+    text-decoration: none;
+}
+
+
+
+p > a {
+    font-family: "Segoe UI", Arial, Helvetica, sans-serif; font-size: 14px;
+    color: #666666;
+    float: right;
+    
+}
+
+.botao1 {
+    background-color: #00A9B0;
+    border-radius: 5px;
+    border-color: #FFFFFF;
+    padding: 5px 15px 5px 15px;
+    margin-left: 20px;
+}
+
+.botao1:hover {
+    background-color: #00aab0a8;
+    border-radius: 5px;
+    border-color: #00A9B0;
+    padding: 5px 15px 5px 15px;
+    margin-left: 20px;
+}
+
+
+
+
+.row {
+	display: flex; 
+	justify-content: space-between;	
+}
+
+
+/* RESPONSIVIDADE */
+
+@media only screen and (max-width: 768px ) {
+	.centralizar {
+		font-size: 4vw;
+		text-align: center;
+	}
+
+    #menu  {
+		float: none;
+		width: 98%;
+	}
+	
+	#menu2  {
+		float: none;
+		width: 100%;
+	}
+	
+     /* BOX PRINCIPAL */
+
+	#conteudo1 {
+		width: 95vw;
+		height: 68vw;
+    }	
+
+    h2 {
+        text-align: center;
+        font-size:4.3vw;
+     }
+    
+    #conteudo1 p {
+        position: relative;
+        left: 25vw;
+        width: 45vw;
+        font-size: 3vw;
+        text-align: center;
+    }
+
+    h4{
+        margin-left: 13vw;
+        width: 22vw;
+        font-size: 1.5vw;
+        background-color:gainsboro;
+        text-align: center;
+        height: 8vw;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+    
+    ul {
+        position: relative;
+        left: 15vw;
+    
+        width: 40vw;
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    
+    
+    .lol {
+        position: relative;
+        bottom: 2vw;
+        padding-left: 13vw;
+        border:none;
+        border-radius: 0px;
+        width: 22vw;
+        height: 11vw;
+    }
+
+
+
+    /* BOX LATERAÇ */ 
+    
+img {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    width: 95vw;
+    height: 44vw;
+    background-repeat: no-repeat;
+ }
+
+h3 {
+    font-size: 4vw;
+}
+ 
+p {
+    width: 97vw;
+    text-align: left;
+    top: 1vw;
+    left: 3vw;
+    position: relative;
+    font-size: 2vw;
+}
+
+#veja {
+    position: relative;
+    top: 0.1vw;
+    right: 0vw;
+    font-size: 1.8vw;
+    color: rgb(22, 65, 255);
+    text-decoration: none;
+}
+
+#box-lateral {
+    width: 95vw;
+    height: 74vw;
+}
+
+
+
+/*     */ 
+
+
+    #nospace {
+        position: relative;
+        top: 8vw;
+    }
+
+    #nospace {
+        font-size: 3vw;
+        position: relative;
+        top: 8vw;
+    }
+     
+	.row {
+		display: block; 
+	}
+
+
+
+    #nospace {
+        font-size: 5.1vw;
+    }
+
+
+    p > a {
+        margin-right: 0vw;
+        float: none;
+
+    }
+
+
+}
+
+
+@media only screen and (max-width: 375px  ) {
+	.centralizar {
+		font-size: 5vw;
+		text-align: center;
+	}
+
+    #menu  {
+		float: none;
+		width: 98%;
+	}
+	
+	#menu2  {
+		float: none;
+		width: 70%;
+        font-size: 14px;
+	}
+	
+	
+	.row {
+		display: block; 
+	}
+
+
+    /* BOX LATERAL */
+	
+	#box-lateral {
+		width: 95vw;
+		height: 98vw;
+	}
+
+
+    img {
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        width: 95vw;
+        height: 44vw;
+        background-repeat: no-repeat;
+     }
+    
+    h3 {
+        font-size: 5vw;
+    }
+     
+    p {
+        width: 97vw;
+        text-align: left;
+        top: 1vw;
+        left: 3vw;
+        position: relative;
+        font-size: 4vw;
+    }
+    
+    #veja {
+        position: relative;
+        top: 0.1vw;
+        right: 0vw;
+        font-size: 3.5vw;
+        color: rgb(22, 65, 255);
+        text-decoration: none;
+    }
+	
+
+    /*  ------  */
+
+
+    /* BOX PRINCIPAL */
+
+
+    #conteudo1 {
+		width: 100vw;
+		height: 100vw;
+    }	
+
+      h2 {
+        text-align: center;
+        font-size:6vw;
+     }
+    
+    #conteudo1 p {
+        position: relative;
+        left: 8vw;
+        width: 85vw;
+        font-size: 4.4vw;
+        text-align: center;
+    }
+
+    h4{
+        margin-left: 6vw;
+        width: 26vw;
+        font-size: 2.3vw;
+        background-color:gainsboro;
+        text-align: center;
+        height: 15vw;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+    
+    ul {
+        position: relative;
+        left: 13.5vw;
+    
+        width: 40vw;
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    
+    
+    .lol {
+        position: relative;
+        bottom: 3.3vw;
+        padding-left: 6vw;
+        border:none;
+        border-radius: 0px;
+        width: 26vw;
+        height: 13vw;
+    }
+
+
+
+
+
+
+    #nospace {
+        font-size: 5.1vw;
+    }
+
+    p > a {
+        margin-right: 0vw;
+        float: none;
+
+    }
+
+
+
+    #busca #txtBusca{
+        font-size:18px;
+        height:30px;
+        width:100px;
+        margin: 0 25px 0px 0px;
+     
+      }
+    
+    #btnBusca{
+        height:30px;
+        width:70px;
+        margin: 0 25px 0px 0;
+
+        
+        
+    }
+
+    .botao1 {
+       width: 170px;
+       height: 30px;
+       margin:  20px 20px 0px 0px;
+    }
+
+    #txtbuscar{
+    
+        font-size: 10;
+
+
+    }
+     
+        
+
+}

@@ -146,55 +146,8 @@ header{
     */
 }
 
-#conteudointro {
-    font-family: "Segoe UI", Arial, Helvetica, sans-serif; font-weight: 400; font-size: 20px;
-    color: #666666;
-    margin-left: 30px;
-    margin-right: 20px;
-    text-align: justify;
-}
 
-#box-lateral {
-    background-color: #EFEFEF;
-    width: 22vw;
-    height: 45vw;
-    border-radius: 15px;
-    display: inline-block;
-    margin-top: 1.4vw;
-    margin-right: 1vw;
-	padding-left: 1vw;
-}
 
-.titnoticia {
-    background-color: #00A9B0;
-    border-radius: 5px;
-    font-family: "Segoe UI", Arial, Helvetica, sans-serif; 
-    font-size: 1.3vw;
-    color: #FFFFFF;
-    list-style: none;
-    width: 96%;
-    height: auto; 
-	margin-top: 0vw;
-
-}
-
-.imgnoticia {
-    float: inline-start;
-    width:100%;
-    height: auto;
-}
-
-.pnoticia {
-    display: flex;
-    background-color: #D9D9D9;
-    border-radius: 5px;
-    font-family: "Segoe UI", Arial, Helvetica, sans-serif; font-size: 0.9vw;
-    color: #666666;
-    width: 96%;
-	height: 8vw;
-    margin-bottom: 1vw;
-    
-}
 
 p > a {
     font-family: "Segoe UI", Arial, Helvetica, sans-serif; font-size: 14px;
@@ -262,7 +215,145 @@ p > a {
 	justify-content: space-between;	
 }
 
-@media only screen and (max-width: 768px  ) {
+#titulo {
+    font-family: sans-serif;
+    color: #00A9B0;
+    margin-left: 35%;
+} 
+
+
+#subtitulo {
+    font-family: sans-serif;
+    color:#666666;
+    margin-left: 35%;
+} 
+
+
+#check{
+    display: inline-block;
+}
+
+
+fieldset {
+    border: 0;
+}
+
+
+body{
+    background-color:white;
+    font-family: sans-serif;
+    font-size: 1em;
+    color: #00A9B0;
+    margin-left: 2%;
+    margin-top: 2%;
+    justify-content: center;
+}
+
+.funcione {
+    border-style: solid;
+    width: 65%;
+    margin: auto;
+    margin-top: 2%;
+}
+
+
+
+input, select, textarea, button {
+    font-family: sans-serif;
+    font-size: 1em;
+    color: darkslategrey;
+    border-radius: 5px;
+}
+
+
+.grupo:before, .grupo:after {
+    display: table;
+}
+
+
+.grupo:after {
+    clear: both;
+}
+
+
+.campo {
+    margin-bottom: 1em;
+
+}
+
+#calendario {
+    margin-left: 35%;
+}
+
+#datap {
+    margin-left: 35%;
+}
+
+.atualiza-ls {
+    margin-left: 35%;
+}
+
+.campo label {
+   margin-bottom: 0.2em;
+    color: #00A9B0;
+    display: block; 
+    margin-left: 35%;
+
+
+}
+
+
+fieldset.grupo .campo {
+   float: left;
+    margin-right: 1em;
+}
+
+.campo input[type="text"], .campo input[type="telefone"], .campo select, .campo textarea {
+    padding: 0.2em;
+    border: 1px solid #666666;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    display: block;
+}
+
+
+.campo select option {
+    padding-right: 1em;
+}
+
+
+.campo input:focus, .campo select:focus, .campo textarea:focus {
+    background: rgb(165, 248, 241);
+}
+
+
+.botao {
+    font-size: 1.2em;
+    background: #00A9B0; 
+    border: 0;
+    margin-bottom: 1em;
+    color: rgba(20, 37, 51, 0.877);
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5) ;
+    margin-left: 38%;
+    top: 100%;
+
+    
+}
+
+
+.botao:hover {
+    background: royalblue;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: none;
+}
+
+
+.botao, select{
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 898px  ) {
 	.centralizar {
 		font-size: 4vw;
 		text-align: center;
@@ -278,45 +369,13 @@ p > a {
 		width: 100%;
 	}
 	
-	#conteudo1 {
-		width: 96vw;
-		height: 45vw;
-    }	
-
-    #conteudo2 {
-        width: 96vw;
-		height: 60vw;
-        
-    }
-
-    #conteudointro {
-        font-size: 3.5vw;
-    }
+	
 	
 	.row {
 		display: block; 
 	}
 
-    #conteudocentral {
-        margin-top: 1vw;
-    }
-	
-	#box-lateral {
-		width: 95vw;
-		height: 74vw;
-	}
-	
-	.pnoticia {
-		width: 92vw;
-		font-size: 2.3vw;
-        height: 14vw;
-	}
 
-    .titnoticia {
-        width: 92vw;
-        height: auto;
-        font-size: 3vw;
-    }  
 
     #nospace {
         font-size: 5.1vw;
@@ -354,14 +413,62 @@ p > a {
         width: 12vw;
     }
 
+    .funcione {
+        width: 96%;
+    }
+
+    .campo {
+        margin-right: 35vw;
+        float: none;
+    }
+
+    #datap, #calendario {
+        margin-left: 20vw;
+        
+    }
+
+    #titulo {
+        font-size: 4vw;
+        margin-left: 28%;
+    }
+
+    #subtitulo {
+        font-size: 2vw;
+        margin-left: 22%;
+    }
+    
+
 }
 
 
-@media only screen and (max-width: 375px  ) {
+
+
+@media only screen and (max-width: 438px  ) {
 	.centralizar {
 		font-size: 5vw;
 		text-align: center;
 	}
+
+    .botao {
+        font-size: 100%;
+        margin-left: 20vw;
+    }
+
+    #especialidade {
+        width: 60vw;
+    }
+
+    #titulo {
+        font-size: 6vw;
+        margin-left: 13%;
+    }
+
+    #subtitulo {
+        font-size: 4vw;
+        margin-left: 2%;
+        text-align: center;
+    }
+    
 
     #menu  {
 		float: none;

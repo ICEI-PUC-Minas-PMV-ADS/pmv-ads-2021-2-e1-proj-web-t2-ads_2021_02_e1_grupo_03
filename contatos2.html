@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAMG - Home</title>
+
+    <link rel="stylesheet" type="text/css" href="contatos2.css">
+    
+
+	
+</head>
+
+<body>
+
+    <header>
+		
+		<div class="title">
+			<img src="img/pamg.png" class="logo">		
+			<h1 id="titmargem" class="centralizar">Pontos de Atendimento Médico Gratuito</h1>
+		</div>
+		
+        <div id="menu">
+            <div id="submenu">
+            <a id="menu2" href="index.html">Home</a>
+            <a id="menu2" href="contatos2.html">Contato</a>
+            <a id="menu2" href="formulario.html">Agendar Consulta</a>
+            <a id="menu2" href="noti.html">Notícias</a>
+            <a id="menu2" href="parceiros.html">Parceiros</a>
+            </div>
+
+			<div id="busca">
+                <button id="btnBusca">Buscar</button>
+				<input type="search" id="txtBusca" placeholder="Buscar..."/>
+            	<button class="botao1"><a id="menu3" href="login.html">Login / Registro</a></button>
+			</div>
+        
+
+
+        </div>
+    </header>
+
+    <main>
+	<div class="row"> 
+        <div id="conteudo1">
+            <div id="map"></div>
+        </div>
+		
+		<div id="box-lateral">
+			<h1 id="nospace" class="linha">Contato</h1>
+
+            <p class="roo">Selecione a clínica para o seu atendimento</p>
+        
+
+            <div class="late">
+           <p><label for="location">Clínicas:</label>
+            <select class="maps_location" name="localizacao" id="">
+                <option value="">Selecionar</option>
+                <option value="venda_nova">Ciências Médicas</option>
+                <option value="norte">Escuta aqui</option>
+                <option value="nordeste">Faculdade Arnaldo</option>
+                <option value="pampulha">FUMEC</option>
+                <option value="leste">Núcleo de Acolhida e Articulação da Paróquia Nsa Sra da Boa Viagem</option>
+                <option value="noroeste">PUC Minas</option>
+                <option value="oeste">UFMG - Fonoaudiologia</option>
+                <option value="centro_sul">UFMG - Odontologia</option>
+                <option value="barreiro">Una BH</option>
+                <option value="barreiro2">Uni BH</option>
+            </select></p> 
+            </div>
+    
+            <div class="late">
+            <div id="location_description">
+                <p></p>
+            </div>
+           
+            </div>
+
+        
+           
+		</div>
+
+	</div>
+	
+	
+
+    </main>
+
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBlYzsUMlUgWlJcCy1_STXEUKJz9RtcHPU&callback=initMap&libraries=&v=weekly" ></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    
+    <script>
+        // Initialize and add the map
+        function initMap(latitude, longitude) {
+            
+            // The location
+            const coordenates = { lat: latitude, lng: longitude };
+            // The map, centered at location
+            const map = new google.maps.Map(document.getElementById("map"), {
+                zoom: 17,
+                center: coordenates,
+            });
+            // The marker, positioned at location
+            const marker = new google.maps.Marker({
+                position: coordenates,
+                map: map,
+            });
+        }
+    </script>
+
+    <script>
+        $(document).ready(function() {
+            // COloca aqui a localizao inicial que vai aparecer ao carregar a pagina
+            initMap(-19.849665841523038, -43.954900631927735)
+            $('.maps_location').on('change', function() {
+                str = $(this).val();
+                switch (str) {
+                    case 'venda_nova':
+                        $("#location_description").html("<p>Tratamentos oferecidos: Transplante Renal; Nefrologia;  Urologia; Cirurgia Geral, Vascular e Plástica; Otorrinolaringologista; Ginecologia; Pediatria; Proctologia; Mastologia e Ortopedia. Para maiores informações pelo telefone: Ortopedia - (31) 3299-8166; Demais especialidades - (31) 3299-8176</p>")
+                        initMap(-19.92493563142125, -43.950809626984004)
+                        break;
+                    case 'norte':
+                        $("#location_description").html("<p>Atendimento psicológico online. Para maiores informações acesso o site https://www.escutaaqui.com/atendimento-psicologico-voluntario</p>")
+                        initMap(-19.849665841523038, -43.954900631927735)
+                        break;
+                    case 'nordeste':
+                        $("#location_description").html("<p>Clínica de Psicologia da instituição atende crianças, adolescentes e adultos nos serviços de psicoterapia e psicodiagnóstico. Mulheres vítimas de violência doméstica também são atendidas pelos alunos e profissionais do Arnaldo.</p>")
+                        initMap(-19.92874720588877, -43.92832356294869)
+                        break;
+                    case 'pampulha':
+                        $("#location_description").html("<p>Especialidade Oferecida: Psicologia. Os atendimentos são feitos por estudantes do curso de Psicologia do último ano, supervisionados por professores-supervisores clínicos com larga experiência profissional e acadêmica. Horário de Funcionamento: 2ª a 6ª feira - das 8h às 21h. Sábados - das 8h às 17h.</p>")
+                        initMap(-19.943571922170566, -43.92504466076162)
+                        break;
+                    case 'leste':
+                        $("#location_description").html("<p>Atendimento psicológico ofertado para o público em geral. As consultas são realizadas pela internet, por videochamada. Os atendimentos são gratuitos – quem pode contribui com um valor social. Os agendamentos podem ser feitos pelo WhatsApp (31) 98420-1204.</p>")
+                        initMap(-19.928136042354254, -43.93547749779553)
+                        break;
+                    case 'noroeste':
+                        $("#location_description").html("<p>Especialidades oferecidas: Psicologia (Telefone: 3319-4322); Fonoaudiologia (Telefone: 3269-3205); Odontológica (Telefone: 3319-4164)</p>")
+                        initMap(-19.923372939294573, -43.990247716581976)
+                        break;
+                    case 'oeste':
+                        $("#location_description").html("<p>Horário de atendimento externo de 9h às 13h e 14h às 16h, Telefone: (31) 3409-9117</p>")
+                        initMap(-19.924210820477246, -43.9292878895979)
+                        break;
+                    case 'centro_sul':
+                        $("#location_description").html("<p>O atendimento, que ocorre às terças e às quartas-feiras, das 14h às 18h, na Clínica 5 da Faculdade de Odontologia, é feito por livre demanda. Telefone (31) 98439-9077</p>")
+                        initMap(-19.872223517576494, -43.97414903192713)
+                        break;
+                    case 'barreiro':
+                        $("#location_description").html("<p>Especialidades oferecidas: Psicologia, Nutrição (unidade Guajajaras) e Fisioterapia (unidade Barreiros)</p>")
+                        initMap(-19.926292015849352, -43.93577953377782)
+                        break;
+                    case 'barreiro2':
+                        $("#location_description").html("<p>Especialidades oferecidas: Psicologia (atendimento online); Odontologia; Fisioterapia (Telefones: (31)3319-9345 ou (31)3319-9509); e Nutrição.</p>")
+                        initMap(-19.97031000512205, -43.963806895152935)
+                        break;
+                    default:
+                        console.log(`Nao foi possivel encontrar a informacao`);
+                }
+
+            });
+        })
+    </script>
+
+</body>
+
+</html>

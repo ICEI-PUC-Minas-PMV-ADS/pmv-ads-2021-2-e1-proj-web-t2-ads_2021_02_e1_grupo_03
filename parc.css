@@ -1,0 +1,510 @@
+h1 {
+    color: #666666;
+     font-family: "Segoe UI Semibold", 'Segoe UI', sans-serif; 
+    font-weight: 400;
+     font-size: 36px;
+    margin-left: 15px;
+    
+}
+
+
+
+header{
+    width:97vw;
+      
+}
+
+
+
+#nospace {
+    color: black;
+    margin-top: 0px;
+}
+
+.linha {
+    text-decoration:  #00A9B0;
+}
+
+.logo {
+   width: 15vw;
+   height: auto;
+}
+
+#menu {
+    font-family: "Segoe UI", Arial, Helvetica, sans-serif; font-weight: 400; font-size: 18px; 
+    color: #FFFFFF; background-color: #00A9B0;
+    width: 97vw;
+    padding: .65vw;
+	/*overflow: auto;*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+#menu2 {
+    font-family: "Segoe UI", Arial, Helvetica, sans-serif; font-weight: 400; font-size: 18px;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding-right: 30px;
+    padding-left: 30px;
+	float: left;
+	display: block;
+}
+
+
+
+#busca #txtBusca{
+    float:right;
+    background-color:white;
+    padding:5px;
+    margin-left:25px ;
+    font-size:18px;
+    height:32px;
+    width:190px;
+    border-radius:7px 0px 0px 7px;
+  }
+
+#btnBusca{
+    border: solid 1px white;
+    float:right;
+    height:32px;
+    border-radius:0 7px 7px 0;
+    margin-right:25px ;
+    width:70px;
+    font-weight:bold;
+    background: #00A9B0;
+  }
+
+#submenu {
+    display:inline-block;
+	margin-left: 1vw;
+    
+}
+
+#menu3 {
+    font-family: "Segoe UI", Arial, Helvetica, sans-serif; font-weight: bolder; font-size: 16px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+
+#txtBusca {
+    font-family: "Segoe UI" Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 16px;
+    background-image: url("img/busca2.png");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-color: white;
+    border:solid 1px white;
+    border-radius:15px;
+    width: 267px;
+    height: 30px;
+    text-indent: 20px;
+}
+
+.title {
+	display: flex;
+    align-items: center;
+    justify-content: space-between  ;
+    width: 97vw;
+    
+}
+
+/* BOX PRINCIPAL */
+
+#conteudo1 {
+    border: 2px solid black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: space-between ;
+    width: 56vw;
+    height: 100%;
+	margin-top: 1vw;
+    margin-left: 0.3vw;
+	display: inline-block;
+ } 
+
+
+ .img {
+     margin-top: 1vw;
+    position: relative;
+    bottom: 1vw;
+    background-image: url(img/clinicapuc.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 2px solid black;
+    padding: 0px;
+    width: 56vw;
+    height: 28vw;
+}
+
+
+h2 {
+    padding: 3px;
+    font-size: 2.5vw;
+}
+
+h4 {
+    font-size: 2vw;
+    padding-left: 15px;
+}
+
+.awde {
+    text-decoration: none;
+    color:rgb(0, 174, 255);
+}
+
+.awde:hover {
+    color :rgb(0, 23, 230)
+}
+
+.xcv {
+    color:black;
+}
+
+.qwe {
+    color: black;
+    display: block;
+}
+
+a:hover{
+    color: black;
+}
+
+ol>li {
+    font-size: 1.5vw;
+}
+
+
+#box-lateral {
+    font-size: x-larger;
+    background-color: rgba(7, 7, 7, 0.062);
+    text-align: center;
+    width: 38vw;
+    height: 49vw;
+    display: inline-block;
+    margin-top: 1vw;
+    margin-right: 1vw;
+	padding-left: 1vw;
+    overflow: auto;
+}
+
+ 
+h3 {
+    font-size: 2vw;
+}
+
+p {
+    font-size: 1.6vw;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+}
+
+a:hover{
+    color :gainsboro;
+}
+
+
+
+
+p > a {
+    font-family: "Segoe UI", Arial, Helvetica, sans-serif; font-size: 14px;
+    color: #666666;
+    float: right;
+    
+}
+
+.botao1 {
+    background-color: #00A9B0;
+    border-radius: 5px;
+    border-color: #FFFFFF;
+    padding: 5px 15px 5px 15px;
+    margin-left: 20px;
+}
+
+.botao1:hover {
+    background-color: #00aab0a8;
+    border-radius: 5px;
+    border-color: #00A9B0;
+    padding: 5px 15px 5px 15px;
+    margin-left: 20px;
+}
+
+
+
+
+.row {
+	display: flex; 
+	justify-content: space-between;	
+}
+
+
+/* RESPONSIVIDADE */
+
+
+@media only screen and (max-width: 768px ) {
+	.centralizar {
+		font-size: 4vw;
+		text-align: center;
+	}
+
+    #menu  {
+		float: none;
+		width: 98%;
+	}
+	
+	#menu2  {
+		float: none;
+		width: 100%;
+	}
+	
+	#conteudo1 {
+		width: 96vw;
+		height: 100%;
+    }	
+
+    .img {
+        margin-top: 1vw;
+       position: relative;
+       bottom: 1vw;
+       background-image: url(clinicapuc.jpg);
+       background-repeat: no-repeat;
+       background-size: cover;
+       border-bottom: 2px solid black;
+       padding: 0px;
+       width: 96vw;
+       height: 38vw; }
+
+
+       h3 {
+        font-size: 3vw;
+    }
+    
+    p {
+        font-size: 2.4vw;
+    }
+    
+    a{
+        text-decoration: none;
+        color:white;
+    }
+    
+
+
+    .sobre {
+        position: relative;
+        left: 40vw;
+        display: block;
+        margin-bottom: 1.2vw;
+        margin-top: 1vw;
+        background-color: #00A9B0;
+        color: white;
+        font-size:3vw;
+        border-radius: 5px;
+        border: 0px;
+        width: 100px;
+    }
+    
+    
+
+    
+    .sobre:hover{
+        color: gainsboro;
+    }
+    
+	
+	.row {
+		display: block; 
+	}
+
+	
+	#box-lateral {
+		width: 95vw;
+		height: 64vw;
+	}
+	
+
+
+    p > a {
+        margin-right: 0vw;
+        float: none;
+
+    }
+
+
+    h2 {
+        padding: 3px;
+        font-size: 4vw;
+    }
+    
+    h4 {
+        font-size: 3vw;
+        padding-left: 15px;
+    }
+    
+
+
+    ol>li {
+        font-size: 2.3vw;
+    }
+
+
+}
+
+
+@media only screen and (max-width: 375px  ) {
+	.centralizar {
+		font-size: 5vw;
+		text-align: center;
+	}
+
+    #menu  {
+		float: none;
+		width: 98%;
+	}
+	
+	#menu2  {
+		float: none;
+		width: 70%;
+        font-size: 14px;
+	}
+	
+	#conteudo1 {
+		width: 95vw;
+		height: 100%;
+    }	
+
+
+    .img {
+        margin-top: 1vw;
+       position: relative;
+       bottom: 1vw;
+       background-image: url(clinicapuc.jpg);
+       background-repeat: no-repeat;
+       background-size: cover;
+       border-bottom: 2px solid black;
+       padding: 0px;
+       width: 95vw;
+       height: 38vw; }
+
+
+       h3 {
+        font-size: 5vw;
+    }
+    
+    p {
+        font-size: 4vw;
+    }
+    
+    a{
+        text-decoration: none;
+        color:white;
+    }
+    
+
+
+    .sobre {
+        position: relative;
+        left: 40vw;
+        display: block;
+        margin-bottom: 1.2vw;
+        margin-top: 1vw;
+        background-color: #00A9B0;
+        color: white;
+        font-size: 4vw;
+        border-radius: 5px;
+        border: 0px;
+        width: 25vw;
+    }
+
+
+    
+    h2 {
+        padding: 3px;
+        font-size: 5vw;
+    }
+    
+    h4 {
+        font-size: 4.5vw;
+        padding-left: 15px;
+    }
+    
+
+
+    ol>li {
+        font-size: 4vw;
+    }
+
+
+    
+    
+
+    
+    .sobre:hover{
+        color: gainsboro;
+    }
+    
+	
+	.row {
+		display: block; 
+	}
+
+	
+	#box-lateral {
+		width: 95vw;
+		height: 74vw;
+	}
+	
+
+    .linha {
+        font-size: 5.1vw;
+    
+    }
+
+
+    p > a {
+        margin-right: 0vw;
+        float: none;
+
+    }
+
+
+
+    #busca #txtBusca{
+        font-size:18px;
+        height:30px;
+        width:100px;
+        margin: 0 25px 0px 0px;
+     
+      }
+    
+    #btnBusca{
+        height:30px;
+        width:70px;
+        margin: 0 25px 0px 0;
+
+        
+        
+    }
+
+    .botao1 {
+       width: 170px;
+       height: 30px;
+       margin:  20px 20px 0px 0px;
+    }
+
+    #txtbuscar{
+    
+        font-size: 10;
+
+
+    }
+     
+        
+
+}
